@@ -21,12 +21,12 @@ int isprime(int p)
 
 int main()
 {
-    for (int p=2; p<=100; p++)
+    L=[]
+    if isprime(p)
     {
-        if (isprime(p))
-        {
-            printf("%d\t", p);
-        }
+        L.append(p)
+        c=len(p)
+        return c
     }
     return 0;
 }
